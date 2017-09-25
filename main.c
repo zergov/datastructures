@@ -2,7 +2,7 @@
 #include "stack.h"
 
 
-int main() {
+void showcase_stack() {
     struct Stack *usernames = create_stack();
     printf("Stack size: %d\n", usernames->size);
     printf("Stack is empty ?: %d\n", stk_isEmpty(usernames));
@@ -20,4 +20,8 @@ int main() {
     printf("popping from the stack: %s\n", stk_pop(usernames));
     printf("Stack size: %d\n", usernames->size);
     printf("Stack is empty ?: %d\n", stk_isEmpty(usernames));
+}
+
+int main() {
+    showcase_stack();
 }
