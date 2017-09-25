@@ -18,4 +18,6 @@ int main() {
     printf("popping from the stack: %s\n", stk_pop(usernames));
     printf("popping from the stack: %s\n", stk_pop(usernames));
     printf("popping from the stack: %s\n", stk_pop(usernames));
+    printf("Stack size: %d\n", usernames->size);
+    printf("Stack is empty ?: %d\n", stk_isEmpty(usernames));
 }
