@@ -13,3 +13,5 @@ struct Stack {
 
 Stack* create_stack();
 int stk_isEmpty(Stack *s);
+void stk_push(Stack *s, char *val);
+char* stk_pop(Stack *s);
